@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./komputer.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <a href="../home/home.html"> <button class="btn1"
+                style="background-color: orange;padding: 10px;border: none;border-radius: 5px;margin-left: 70px;">Əsas
+                səhifə</button></a>
+        <button style="margin-left: 20px;" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#examplemodal2">
+            Komputer yarat
+        </button>
+
+    </nav>
+
+
+
+
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+
+    <div class="modal fade modal-xl  " id="examplemodal2" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content bg-info">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <form class="row g-3 needs-validation form" novalidate>
+                        <div class="col-md-3">
+                            <label for="validationCustom02" class="form-label">Kategoriya</label>
+                            <select class="form-select" id="validationCustom02" required>
+                                <option>ASUS</option>
+                                <option> HP</option>
+                                <option> Apple</option>
+                                <option> DELL</option>
+                                <option> Lenevo</option>
+                                <option>Casper </option>
+                                <option> LG</option>
+                                <option> Samsung</option>
+                                <option> Nexus</option>
+                                <option> Toshiba</option>
+                                <option> Sony</option>
+
+
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">Ad</label>
+                            <input type="text" class="form-control" id="validationCustom01" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="col-md-4">
+                            <label for="validationCustom3" class="form-label ">Qiymət</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <label for="validationCustom04" class="form-label ">Təsvir</label>
+                            <input type="text" class="form-control" id="validationCustom40" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                yeni
+                            </label>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="validationCustom06" class="form-label checkProfilreimg"> Şəkil</label>
+                            <input type="text" class="form-control" id="validationCustom06" required>
+                            <div class="imgparent"></div>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom07" class="form-label ">Əməli Yaddaş (GB) </label>
+                            <input type="number" class="form-control" id="validationCustom07" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom08" class="form-label">Mərkəzi prosessor</label>
+                            <input type="number" class="form-control" id="validationCustom08" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <label for="validationCustom09" class="form-label ">Daimi Yaddaş (GB) </label>
+                            <input type="number" class="form-control" id="validationCustom09" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom10" class="form-label ">Daimi Yaddaş tipi </label>
+                            <input type="text" class="form-control" id="validationCustom10" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom11" class="form-label ">Əməliyyatlar sistemi </label>
+                            <input type="text" class="form-control" id="validationCustom11" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom12" class="form-label ">Video Card (GB) </label>
+                            <input type="text" class="form-control" id="validationCustom12" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    </form>
+
+    </div>
+
+
+    </div>
+    </div>
+    </div>
+    
+
+    <table  id="example"  class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Ad</th>
+                <th>Şəkil</th>
+                <th>Qiymət</th>
+                <th>Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody class="table table-striped tbody">
+            <tr>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Edit Modal -->
+
+    <div class="modal fade modal-xl " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content bg-info">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <form class="row g-3 needs-validation editFrom" novalidate>
+                        <div class="col-md-3">
+                            <label for="validationCustom02" class="form-label">Kategoriya</label>
+                            <select class="form-select editmarka" id="validationCustom02" required>
+                                <option>ASUS</option>
+                                <option> HP</option>
+                                <option> Apple</option>
+                                <option> DELL</option>
+                                <option> Lenevo</option>
+                                <option>Casper </option>
+                                <option> LG</option>
+                                <option> Samsung</option>
+                                <option> Nexus</option>
+                                <option> Toshiba</option>
+                                <option> Sony</option>
+
+
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">Ad</label>
+                            <input type="text" class="form-control editmodel" id="validationCustom01" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="col-md-4">
+                            <label for="validationCustom3" class="form-label ">Qiymət</label>
+                            <input type="text" class="form-control editqiymet" id="validationCustom03" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <label for="validationCustom" class="form-label ">Təsvir</label>
+                            <input type="text" class="form-control edittesvir" id="validationCustom04" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                yeni
+                            </label>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="validationCustom" class="form-label "> Şəkil</label>
+                            <input type="text" class="form-control editprofile" id="validationCustom06" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom" class="form-label ">Əməli Yaddaş (GB) </label>
+                            <input type="number" class="form-control edityurus" id="validationCustom07" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom08" class="form-label">Mərkəzi prossesor</label>
+                            <input type="number" class="form-control editmuherikinn" id="validationCustom08" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <label for="validationCustom" class="form-label ">Daimi Yaddaş (GB) </label>
+                            <input type="number" class="form-control" id="validationCustom09" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom" class="form-label ">Daimi Yaddaş tipi </label>
+                            <input type="text" class="form-control" id="validationCustom10" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom" class="form-label ">Əməliyyatlar sistemi </label>
+                            <input type="text" class="form-control" id="validationCustom11" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom" class="form-label ">Video Card (GB) </label>
+                            <input type="text" class="form-control" id="validationCustom12" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+   
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./komputer.js"></script>
+</body>
+
+</html>

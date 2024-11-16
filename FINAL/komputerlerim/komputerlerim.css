@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 270px;
+    height: 320px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin-top: 50px;
+}
+
+.h1 {
+    display: flex;
+}
+
+.cards {
+
+    padding: 10px;
+    width: 100px;
+    margin-inline: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card img {
+    object-fit: cover;
+    width: 150px;
+    height: 200px;
+    margin-left: 50px;
+    transition: all .2s ease-in-out;
+    object-fit: contain;
+}
+
+.car {
+    color: black;
+    margin-top: 10px;
+}
+
+.sidebar {
+    width: 300px;
+    height: 100vh;
+
+}
+
+.sidebar .inner {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+}
+
+.mainInner {
+    display: flex;
+    
+}
+
+nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.img {
+    width: 100px;
+}
+
+.p {
+    text-align: center;
+}
+
+.card img :hover {
+    transform: scale(1.9);
+}
+
+.img10 {
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+.cards{
+    display: flex;
+}
